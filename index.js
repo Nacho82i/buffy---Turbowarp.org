@@ -10,12 +10,15 @@ console.log(`
 ██████╔╝██║   ██║█████╗  █████╗   ╚████╔╝ 
 ██╔══██╗██║   ██║██╔══╝  ██╔══╝    ╚██╔╝  
 ██████╔╝╚██████╔╝██║     ██║        ██║   
-╚═════╝  ╚═════╝ ╚═╝     ╚═╝        ╚═╝                                          
+╚═════╝  ╚═════╝ ╚═╝     ╚═╝        ╚═╝   
+
+But with turbowarp lmfao
+
 `);
 
 const server = http.createServer();
-const url = "https://3kh0.github.io";
-const PORT = process.env.PORT || 8080;
+const url = "https://turbowarp.org";
+const PORT = process.env.PORT || 6660;
 
 server.on("request", async (req, res) => {
   const asset_url = new URL(url + req.url);
